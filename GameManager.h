@@ -12,8 +12,8 @@ private:
 
 	std::unique_ptr<IScene>sceneArr_[3];
 
-	int currentSceneNo_;
-	int prevSceneNo_;
+	int currentSceneNo_ = 0;
+	int prevSceneNo_ = 0;
 
 public:
 	GameManager();
